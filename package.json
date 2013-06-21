@@ -1,9 +1,6 @@
 {
   "name": "tf2",
   "version": "0.0.1",
-  "dependencies": {
-    "ref": "*"
-  },
   "peerDependencies": {
     "steam": "~0.5.6"
   }
