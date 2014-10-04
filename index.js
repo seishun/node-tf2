@@ -1,3 +1,13 @@
+module.exports.ERecipeType = {
+  Wildcard: -2, // unsure
+  SmeltClassWeapons = 3,
+  CombineScrap = 4,
+  CombineReclaimed = 5,
+  SmeltReclaimed = 22,
+  SmeltRefined = 23
+}
+
+
 module.exports = TeamFortress2;
 
 function TeamFortress2(steamClient) {
