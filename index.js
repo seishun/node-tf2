@@ -1,3 +1,5 @@
+module.exports = TeamFortress2;
+
 module.exports.ERecipeType = {
   SmeltClassWeapons = 3,
   CombineScrap = 4,
@@ -6,8 +8,6 @@ module.exports.ERecipeType = {
   SmeltRefined = 23
 }
 
-
-module.exports = TeamFortress2;
 
 function TeamFortress2(steamClient) {
   this._client = steamClient;
