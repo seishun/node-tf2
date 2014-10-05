@@ -1,5 +1,4 @@
 module.exports.ERecipeType = {
-  Wildcard: -2, // unsure
   SmeltClassWeapons = 3,
   CombineScrap = 4,
   CombineReclaimed = 5,
