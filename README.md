@@ -26,7 +26,11 @@ Reports to Steam that you're playing Team Fortress 2.
 
 ## craftItems(items, [recipe])
 
-Attempts to craft `items`, which is an array of item IDs. Use a string if the ID wouldn't fit in a Number. `recipe` defaults to "wildcard".
+Attempts to craft `items`, which is an array of item IDs. Use a string if the ID wouldn't fit in a Number. `recipe` is defaults to "wildcard". You can get the recipe types using the `ERecipeType` property of the module. Example:
+
+``` javascript
+tf2.craftItems(refinedMetal.id, TeamFortress2.ERecipeType.SmeltRefined)
+```
 
 ## deleteItem(item)
 
